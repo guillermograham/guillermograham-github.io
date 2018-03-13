@@ -3,12 +3,207 @@
   <head>
     <meta charset="utf-8">
     <title>William Graham</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/app.js">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.extensions.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.min.css.map" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.min.js.map"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/vendors/jquery.easings.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/vendors/scrolloverflow.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
-    </script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js"></script>
   </head>
   <body>
-
+    <div id="fullpage">
+      <div class="section first" data-anchor="page1">
+        <div class="container">
+          <a href="#page1">Home</a>
+          <a href="#page2">About me</a>
+          <a href="#page3">Portfolio</a>
+          <a href="#page4">Contact</a>
+          <h1>William Graham</h1>
+          <h2>web developer</h2>
+        </div>
+      </div>
+      <div class="section second" data-anchor="page2">
+        <div class="container">
+        <a href="#page1">Home</a>
+        <a href="#page2">About me</a>
+        <a href="#page3">Portfolio</a>
+        <a href="#page4">Contact</a>
+          <div class="row">
+            <div class="col-lg-6">
+              <img src="images/WilliamG-4.jpg" id="profile">
+              <h2>About me</h2>
+              <p>I have always dedicated my spare time to learning, self-studying
+                Spanish to a level in which I could work professionally. My interests
+                include travelling, which influenced my decision to complete a
+                degree in Geography, after which I spent a year in India,
+                teaching English.</p>
+              <p>Working at a FinTech company opened my eyes to the power of
+                technology and the positive impact it can have on people’s lives.
+                This is why I decided to begin studying web development with the
+                resources available to me.</p>
+              <p>I thrive on working within a team and during the Web Development
+                Immersive course at General Assembly, I have particularly enjoyed
+                the collaborative experience. I am now looking for a creative, social
+                team that shares my motivation for learning, and in which I can
+                grow and expand my skill set.</p>
+            </div>
+            <div class="col-lg-6">
+              <h2>Skills</h2>
+              <div class="icon-wrapper">
+                <div class="icon">
+                  <i class="devicon-angularjs-plain dev"></i>
+                  <h4>AngluarJS</h4>
+                </div>
+                <div class="icon">
+                  <i class="devicon-atom-original dev"></i>
+                  <h4>Atom</h4>
+                </div>
+                <div class="icon">
+                  <i class="devicon-bootstrap-plain dev"></i>
+                  <h4>Bootstrap</h4>
+                </div>
+                <div class="icon">
+                  <i class="devicon-bower-plain dev"></i>
+                  <h4>Bower</h4>
+                </div>
+                <div class="icon">
+                  <i class="devicon-css3-plain dev"></i>
+                  <h4>CSS3</h4>
+                </div>
+                <div class="icon">
+                  <i class="devicon-express-original dev"></i>
+                  <h4>Express</h4>
+                </div>
+                <div class="icon">
+                  <i class="devicon-git-plain dev"></i>
+                  <h4>Git</h4>
+                </div>
+                <div class="icon">
+                  <i class="devicon-github-plain dev"></i>
+                  <h4>GitHub</h4>
+                </div>
+                <div class="icon">
+                  <i class="devicon-gulp-plain dev"></i>
+                  <h4>Gulp</h4>
+                </div>
+                <div class="icon">
+                  <i class="devicon-heroku-original dev"></i>
+                  <h4>Heroku</h4>
+                </div>
+                <div class="icon">
+                  <i class="devicon-html5-plain dev"></i>
+                  <h4>HTML5</h4>
+                </div>
+                <div class="icon">
+                  <i class="devicon-javascript-plain dev"></i>
+                  <h4>JavaScript</h4>
+                </div>
+                <div class="icon">
+                  <i class="devicon-jquery-plain dev"></i>
+                  <h4>jQuery</h4>
+                </div>
+                <div class="icon">
+                  <i class="devicon-mongodb-plain dev"></i>
+                  <h4>MongoDB</h4>
+                </div>
+                <div class="icon">
+                  <i class="devicon-nodejs-plain dev"></i>
+                  <h4>Node.js</h4>
+                </div>
+                <div class="icon">
+                  <i class="devicon-postgresql-plain dev"></i>
+                  <h4>PostgreSQL</h4>
+                </div>
+                <div class="icon">
+                  <i class="devicon-rails-plain dev"></i>
+                  <h4>Rails</h4>
+                </div>
+                <div class="icon">
+                  <i class="devicon-react-original dev"></i>
+                  <h4>React</h4>
+                </div>
+                <div class="icon">
+                  <i class="devicon-ruby-plain dev"></i>
+                  <h4>Ruby</h4>
+                </div>
+                <div class="icon">
+                  <i class="devicon-sass-original dev"></i>
+                  <h4>Sass</h4>
+                </div>
+                <div class="icon">
+                  <i class="devicon-trello-plain dev"></i>
+                  <h4>Trello</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" data-anchor="page3">
+        <div class="slide">
+          <div class="container">
+            <a href="#page1">Home</a>
+            <a href="#page2">About me</a>
+            <a href="#page3">Portfolio</a>
+            <a href="#page4">Contact</a>
+            <h1>Slide 1</h1>
+            <img src="images/lights-off.png" alt="lights-off" class="screenshot">
+          </div>
+        </div>
+        <div class="slide">
+          <div class="container">
+            <a href="#page1">Home</a>
+            <a href="#page2">About me</a>
+            <a href="#page3">Portfolio</a>
+            <a href="#page4">Contact</a>
+            <h1>Slide 2</h1>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="container">
+            <a href="#page1">Home</a>
+            <a href="#page2">About me</a>
+            <a href="#page3">Portfolio</a>
+            <a href="#page4">Contact</a>
+            <h1>Slide 3</h1>
+            <img src="images/bring-it.png" alt="bring-it" class="screenshot">
+          </div>
+        </div>
+        <div class="slide">
+          <div class="container">
+            <a href="#page1">Home</a>
+            <a href="#page2">About me</a>
+            <a href="#page3">Portfolio</a>
+            <a href="#page4">Contact</a>
+            <h1>Slide 4</h1>
+          </div>
+        </div>
+      </div>
+      <div class="section fourth" data-anchor="page4">
+        <div class="container">
+          <a href="#page1">Home</a>
+          <a href="#page2">About me</a>
+          <a href="#page3">Portfolio</a>
+          <a href="#page4">Contact</a>
+          <div class="container">
+            <a href="#"><i class="far fa-envelope"></i></a>
+            <a href="#"><i class="devicon-github-plain"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

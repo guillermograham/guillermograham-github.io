@@ -1,3 +1,63 @@
-body {
-  background-color: green;
+h1 {
+  color: white;
+  font-family: 'Josefin Sans';
+  text-transform: uppercase;
+}
+
+h2 {
+  color: white;
+  font-family: 'Josefin Sans';
+}
+
+h4 {
+  font-size: 18px;
+  text-align: center;
+}
+
+i {
+  font-size: 60px;
+}
+
+i.dev {
+  color: yellow;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  min-width: 100px;
+}
+
+.icon-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.slide {
+  background-color: blue;
+}
+
+.second {
+  background-color: red;
+}
+
+.fourth {
+  background-color: black;
+}
+
+.first {
+  background-color: #eaeaea;
+}
+
+.screenshot {
+  height: 400px;
+}
+
+#profile {
+  border-radius: 1500px;
+  height: 200px;
 }
