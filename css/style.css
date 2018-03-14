@@ -138,8 +138,7 @@ i.dev:hover {
 }
 
 .links {
-  margin: 0 auto;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -187,6 +186,18 @@ i.dev:hover {
   background: linear-gradient(to left, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.front {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 .third {
  background-color: #EAEAEA;
 
@@ -201,11 +212,28 @@ i.dev:hover {
 }
 
 .screenshot {
-  height: 400px;
+  border-radius: 3px;
+  display: block;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .fifth {
   background-color: #0BE8CA;
+}
+
+.project-title {
+  color: #B2ABF2;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  text-transform: none;
+}
+
+.description {
+  margin: 0 auto;
+  width: 900px;
 }
 
 
