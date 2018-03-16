@@ -279,6 +279,10 @@ i.dev:hover {
 
   /* SECOND PAGE */
 
+  #profile {
+    height: 80px;
+  }
+
   .bio {
     width: 600px;
   }
