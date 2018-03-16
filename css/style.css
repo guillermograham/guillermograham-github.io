@@ -188,8 +188,21 @@ i.dev:hover {
 
 .front {
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   width: 200px;
+}
+
+.buttn {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: white;
+  transition: background-color 1s ease;
+}
+
+.buttn:hover {
+  background-color: white;
+  color: #B2ABF2;
 }
 
 .button-container {
