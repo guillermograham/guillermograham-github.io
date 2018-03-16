@@ -279,10 +279,6 @@ i.dev:hover {
 
   /* SECOND PAGE */
 
-  #profile {
-    height: 80px;
-  }
-
   .bio {
     width: 600px;
   }
@@ -292,7 +288,7 @@ i.dev:hover {
   }
 
   .skills {
-    width: 650px;
+    display: none;
   }
 
   .icon-wrapper {
