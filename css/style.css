@@ -254,6 +254,15 @@ i.dev:hover {
   width: 900px;
 }
 
+.portfolio-link {
+  color: #B2ABF2;
+  transition: color 1s ease;
+}
+
+.portfolio-link:hover {
+  color: #0CEBEB;
+}
+
 
 
 #profile {
