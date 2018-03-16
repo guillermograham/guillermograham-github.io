@@ -299,6 +299,25 @@ i.dev:hover {
     margin-bottom: 25px;
   }
 
+  /* THIRD PAGE */
+
+  .project-title {
+    /* font-size: 60px; */
+  }
+
+  .portfolio-link {
+    /* font-size: 25px; */
+  }
+
+  .screenshot {
+    /* display: none; */
+  }
+
+  .description {
+    /* font-size: 10px; */
+    width: 650px;
+  }
+
 }
 
 
