@@ -277,6 +277,8 @@ i.dev:hover {
 
 @media only screen and (max-width: 600px) {
 
+  /* SECOND PAGE */
+
     #profile {
       height: 80px;
     }
@@ -292,5 +294,25 @@ i.dev:hover {
 
     .skills {
       display: none;
+    }
+
+
+    /* THIRD PAGE */
+
+    .project-title {
+      font-size: 30px;
+    }
+
+    .portfolio-link {
+      font-size: 18px;
+    }
+
+    .screenshot {
+      display: none;
+    }
+
+    .description {
+      font-size: 10px;
+      width: 250px;
     }
 }
