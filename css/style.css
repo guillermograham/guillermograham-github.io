@@ -283,8 +283,12 @@ i.dev:hover {
     width: 600px;
   }
 
+  .section-title {
+    margin-bottom: 10px;
+  }
+
   .skills {
-    width: 600px;
+    width: 650px;
   }
 
   .icon-wrapper {
@@ -292,7 +296,7 @@ i.dev:hover {
   }
 
   .icon {
-    margin-bottom: 40px;
+    margin-bottom: 25px;
   }
 
 }
