@@ -273,3 +273,20 @@ i.dev:hover {
   margin: 0 auto;
   margin-bottom: 20px;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    #profile {
+      height: 100px;
+    }
+
+    .bio {
+      font-size: 10px;
+      width: 250px;
+    }
+
+    .skills {
+      display: none;
+    }
+}
