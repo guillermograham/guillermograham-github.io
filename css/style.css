@@ -275,6 +275,29 @@ i.dev:hover {
 }
 
 
+@media only screen and (max-width: 900px) {
+
+  /* SECOND PAGE */
+
+  .bio {
+    width: 600px;
+  }
+
+  .skills {
+    width: 600px;
+  }
+
+  .icon-wrapper {
+    width: 600px;
+  }
+
+  .icon {
+    margin-bottom: 40px;
+  }
+
+}
+
+
 @media only screen and (max-width: 600px) {
 
   /* SECOND PAGE */
