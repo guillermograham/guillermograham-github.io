@@ -49,6 +49,11 @@ h1.neon-heading.first {
   color: white;
   font-size: 30px;
   text-align: center;
+  transition: color 0.5s ease;
+}
+
+.contact-icon:hover {
+  color: #B2ABF2;
 }
 
 
